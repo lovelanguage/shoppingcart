@@ -1,0 +1,85 @@
+.HomeContainer{
+	width: 100%;
+	top: 0;
+	display: flex;
+	background-color: #E3BE88;
+	position: relative;
+	overflow: hidden;
+}
+
+.HomeContainer__img{
+	width: 2500px;
+	height: 900px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url("lemongirl.jpg");
+	
+}
+
+
+
+.HomeContainer__font1{
+	color: white;
+	font-size: 75px;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.HomeContainer__font {
+	color: white;
+	font-size: 30px;
+	margin-top: -90px;
+	text-align: center;
+}
+
+.HomeContainer__button {
+	position: relative;
+	height: 50px;
+	bottom: 15px;
+	left: 205px;
+	font-size: 18px;
+	color:black;
+	background-color:  white;
+	cursor: pointer;
+	border: black solid;
+}
+
+.disclaimer__colors{
+	text-align: center;
+	font-size: 10px;
+	margin-top: -10px;
+	color: black;
+
+}
+
+@media(max-width: 600px){
+	.HomeContainer__content{
+		display: none;
+	}
+
+}
+
+@media(max-width: 900px){
+	.HomeContainer__button{
+		left: 115px;
+	}
+
+}
+
+@media(max-width: 600px){
+	.HomeContainer__button{
+		left: 115px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

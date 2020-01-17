@@ -1,2 +1,2 @@
-# shoppingcart
-Ecommerce site with shopping cart
+# retail-ecommerce-
+Retail ecommerce webapp with React

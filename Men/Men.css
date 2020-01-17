@@ -1,0 +1,151 @@
+.Men__container {
+	position: relative;
+	display: inline-block;
+	top: -65px;
+	margin-bottom: 30px;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	padding-bottom: 10rem;
+	overflow: hidden;
+
+	
+}
+
+.Men__header{
+	position: relative;
+	top: 270px;
+	left: 46rem;
+	font-size: 1.5rem;
+	padding: 2rem;
+	margin:0;
+
+
+}
+
+.Men__ul-list {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	top: 150px;
+	left: 55px;
+	padding: 5rem;
+	list-style-type: none;
+
+
+}
+
+.Men__ul-list li {
+	float: left;
+	width: 20%;
+	height: 20%;
+	margin-top: 90px;
+	margin-left: 20px;
+
+}
+
+.Men__li-items-1 {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("prince-akachi.jpg");
+	box-shadow: 5px 4px 4px  rgba(0, 0, 0, .3);
+	border-radius: 1rem;  
+}
+
+
+.Men__li-items-2 {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("mean-sh.jpg"); 
+	box-shadow: 5px 4px 4px  rgba(0, 0, 0, .3);
+	border-radius: 1rem; 
+}
+
+.Men__li-items-3 {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("blake-che.jpg");
+	box-shadow: 5px 4px 4px  rgba(0, 0, 0, .3);
+	border-radius: 1rem; 
+}
+
+.Men__li-items-4 {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("ian-do.jpg"); 
+	box-shadow: 5px 4px 4px  rgba(0, 0, 0, .3);
+	border-radius: 1rem; 
+	
+}
+
+
+
+.img__pic p{
+	position: relative;
+	height: .5rem;
+	margin-top: 1rem;
+	text-align: center;
+	line-height: 4rem;
+	
+}
+
+
+.redline{
+	text-decoration: line-through red;
+}
+
+@media(max-width: 1200px){
+	.Men__header{
+		left: 36rem;
+	}
+}
+
+@media(max-width: 900px){
+	.Men__header{
+		left: 26rem;
+	}
+}
+
+@media(max-width: 600px){
+	.Men__header{
+		left: 18rem;
+	}
+}
+
+@media(max-width: 900px){
+	.Men__ul-list li{
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		height: 40%;
+		width: 70%;
+		left: 2rem;
+
+
+	}
+}
+
+@media(max-width: 900px){
+	.img__pic p{
+		left: 12rem;
+		margin-top: .2rem;
+	}
+}
+
+@media(max-width: 600px){
+	.img__pic p{
+		left: 5rem;
+		margin-top: .2rem;
+	}
+}
+
+
+
+
+
+

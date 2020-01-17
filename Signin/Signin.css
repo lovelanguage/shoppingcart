@@ -1,0 +1,27 @@
+.signout {
+	margin-left: 200px;
+	margin-top: -110px;
+	float: right;
+
+}
+
+.Signin__logo{
+	font-family: 'Monoton', cursive;
+	margin-left: 28px;
+	margin-top: 1px;
+
+}
+
+.Signin__logo a {
+	color: #90580D;
+	text-decoration: none;
+	font-size: 5rem;
+}
+
+.nav__below {
+	position: relative;
+	margin-top: -50px;
+	width: 100%;
+	left: 0;
+
+}

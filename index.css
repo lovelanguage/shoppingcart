@@ -1,0 +1,30 @@
+{/*html {
+	height: 100%;
+
+}*/}
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: 'Playfair Display SC', serif;
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+
+  
+}
+
+.Product-list{
+	display: flex;
+	flex:1;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.Product-list .ProductItems {
+
+	margin-top: 15rem;
+	padding: 10px 40px;
+	width: 200px;
+
+}
+

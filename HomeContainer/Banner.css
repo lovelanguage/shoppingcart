@@ -1,0 +1,50 @@
+.banner__nav {
+ 	display: table;
+    width: 100%;
+    margin-top: 12.5rem;
+    text-align: center;
+ } 
+
+ .banner__nav-li {
+ 	display: table-cell;
+    vertical-align: middle;
+    width: 33.3333%;
+    background-color: black;
+    height: 70px;
+    padding-left: 0;
+    position: relative;
+    z-index: -3;
+ }
+
+.banner__nav-li::before {
+    content: "";
+    position: absolute;    
+    top: 8px;
+    bottom: 8px;
+    left: 0;
+    width: 1px;
+    background: white;
+ }
+
+
+ p a{
+	color: white;
+	 text-decoration: none;
+ }
+.banner__nav-para{
+    line-height: 1px;
+    color: white;
+    text-decoration: none;
+ }
+
+ .banner__nav-li:first-child::before{
+	display: none;
+ }
+
+
+
+@media (max-width: 900px) {
+    .banner__nav {
+       display: none;
+    }
+    }
